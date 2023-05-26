@@ -64,5 +64,8 @@ public class Runner {
                   dryRun = true dedigimizde
                   Cucumber testleri calistirmaz, sadece eksik adim var mi diye kontrol eder
                   eksik adim yoksa Test PASSED yazar
+
+                  dryRun = false default degerdir
+                  ve Testleri normal olarka calistirmamizi saglar
      */
 }
