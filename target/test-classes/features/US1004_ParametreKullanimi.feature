@@ -8,12 +8,12 @@ Feature: 1001_Cucumber Amazon Search Test
     And 3 saniye bekler
     And Sayfayi kapatir
 
-  @regression
+  @regression @ss
   Scenario: TC09 Amazon Java Testi
 
     Given Kullanici "amazonUrl" anasayfaya gider
     When "Java" icin arama yapar
-    Then Arama sonuclarinin Java icerdigini test eder
+    Then Arama sonuclarinin "Java" icerdigini test eder
     And Sayfayi kapatir
 
   Scenario: TC10 Amazon Samsung Testi
