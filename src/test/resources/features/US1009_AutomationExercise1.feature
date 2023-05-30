@@ -1,6 +1,5 @@
 Feature: US1003 Kullanici Autmation Exercise sayfasinda yeni kullanici olusturur
 
-  @ae
   Scenario: TC15 Kullanici kendi bilgileriyle yeni kullanici olusturabilmeli
 
     Given Kullanici "aeUrl" anasayfaya gider

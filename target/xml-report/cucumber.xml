@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="37.201" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1003 Kullanici Autmation Exercise sayfasinda yeni kullanici olusturur" name="TC15 Kullanici kendi bilgileriyle yeni kullanici olusturabilmeli" time="36.797">
+<testsuite name="Cucumber" time="20.56" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1012 Kullanici istedigi firmanin onceki gunki kapanis degerini okur" name="TC18 DCB'nin onceki kapanis degerinin test eder" time="20.093">
 <system-out><![CDATA[
-Given Kullanici "aeUrl" anasayfaya gider....................................passed
-And user sign up linkine tiklar.............................................passed
-And 2 saniye bekler.........................................................passed
-And user Create an account bolumune name ve email adresi girer..............passed
-And signUp butonuna basar...................................................passed
-And user kisisel bilgilerini ve iletisim bilgilerini girer..................passed
-And user Create Account butonuna basar......................................passed
-Then hesap olustugunu test edin.............................................passed
+Given Kullanici "guruUrl" anasayfaya gider..................................passed
+And "DCB Bank" Prev.Close degerini yazdirir.................................passed
+Then Prev.Close degerinin "123,8" oldugunu test eder........................passed
+And 3 saniye bekler.........................................................passed
+Then tum sayfa Screenshot alir..............................................passed
+And Sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
